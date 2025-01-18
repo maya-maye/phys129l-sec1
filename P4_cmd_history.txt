@@ -1,0 +1,20 @@
+  183  history | tail -n 50 >> P2_cmd_history.txt
+  184  git add .
+  185  git commit -m "first"
+  186  git push origin main
+  187  cd ..
+  188  cd ..
+  189  git clone https://github.com/maya-maye/phys129l-sec1.git
+  190  cd phys129l-sec1
+  191  git checkout -b feature branch
+  192  git checkout -b feature_branch
+  193  touch README.md
+  194  git add .
+  195  git commit -m "added hello world"
+  196  git push origin feature_branch
+  197  git checkout main
+  198  git checkout master
+  199  git merge feature_branch
+  200  git push origin master
+  201  git pull origin master
+  202  history | tail -n 20 >> P4_cmd_history.txt 
